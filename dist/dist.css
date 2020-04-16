@@ -1,0 +1,215 @@
+:root {
+  --background-1: #262626;
+  --background-2: #191919;
+  --foreground-1: #e6e6e6;
+  --foreground-2: #a6a6a6;
+  --foreground-3: #e6e6e6;
+  --highlight-color: #00a82e;
+  --neutral-color: #d4d4d4;
+  --danger-color: #cc241d;
+  --success-color: #0081c2;
+  --warning-color: #d65d0e;
+  --border-color: #050606;
+  /* Footer */
+  --footer-bar-border-top-color: 0;
+  --sn-stylekit-info-color: var(--highlight-color);
+  --sn-stylekit-info-contrast-color: var(--foreground-1);
+  --sn-stylekit-neutral-color: var(--neutral-color);
+  --sn-stylekit-neutral-contrast-color: var(--background-2);
+  --sn-stylekit-success-color: var(--success-color);
+  --sn-stylekit-success-contrast-color: var(--background-2);
+  --sn-stylekit-warning-color: var(--warning-color);
+  --sn-stylekit-warning-contrast-color: var(--background-2);
+  --sn-stylekit-danger-color: var(--danger-color);
+  --sn-stylekit-danger-contrast-color: var(--background-2);
+  --sn-stylekit-shadow-color: var(--background-2);
+  --sn-stylekit-background-color: var(--background-1);
+  --sn-stylekit-foreground-color: var(--foreground-1);
+  --sn-stylekit-border-color: var(--border-color);
+  --sn-stylekit-paragraph-text-color: var(--foreground-1);
+  --sn-stylekit-contrast-background-color: var(--background-2);
+  --sn-stylekit-contrast-foreground-color: var(--foreground-1);
+  --sn-stylekit-contrast-border-color: var(--border-color);
+  --sn-stylekit-secondary-background-color: var(--background-2);
+  --sn-stylekit-secondary-foreground-color: var(--foreground-2);
+  --sn-stylekit-secondary-border-color: var(--border-color);
+  --sn-stylekit-secondary-contrast-background-color: var(--background-1);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--foreground-1);
+  --sn-stylekit-secondary-contrast-border-color: var(--border-color);
+  --sn-stylekit-editor-background-color: var(--background-1);
+  --sn-stylekit-editor-foreground-color: var(--foreground-1);
+  --sn-stylekit-input-placeholder-color: var(--foreground-2);
+  --sn-stylekit-input-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
+  --sn-desktop-titlebar-bg-color: var(--background-1);
+  --sn-desktop-titlebar-border-color: var(--border-color);
+  --sn-desktop-titlebar-ui-color: var(--foreground-1);
+  --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
+  /* Note flags */
+  /* Note selected */
+  /* Sidebar note properties: Dates, tags, etc. */
+  /* Workaround for subitems in Markdown lists not colored using StyleKit */
+  /* Progress bars */
+  /* Text selection color */
+  /* Use lighter blue for Minimal Markdown Editor sublists and other CodeMirror elements */
+}
+:root .sk-app-bar {
+  color: var(--foreground-2) !important;
+}
+:root .title {
+  color: var(--foreground-3) !important;
+}
+:root .sk-menu-panel {
+  color: var(--foreground-1) !important;
+}
+:root #notes-scrollable {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note,
+:root #notes-column .tag {
+  opacity: 1 !important;
+  background-color: var(--background-2) !important;
+  color: var(--foreground-3) !important;
+}
+:root #notes-column .note .name {
+  color: var(--foreground-3) !important;
+}
+:root #notes-column .note .plain-preview {
+  color: var(--foreground-3) !important;
+}
+:root #notes-column .note progress {
+  border: 1px solid var(--border-color) !important;
+}
+:root #notes-column .note .note-flags .flag.info,
+:root .notes .note .note-flags .flag.info {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-info-color) !important;
+}
+:root #notes-column .note .note-flags .flag.success,
+:root .notes .note .note-flags .flag.success {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-success-color);
+}
+:root #notes-column .note .note-flags .flag.warning,
+:root .notes .note .note-flags .flag.warning {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-warning-color);
+}
+:root #notes-column .note .note-flags .flag.neutral,
+:root .notes .note .note-flags .flag.neutral {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-neutral-color);
+}
+:root #notes-column .note .note-flags .flag.danger,
+:root .notes .note .note-flags .flag.danger {
+  background-color: var(--background-1) !important;
+  color: var(--sn-stylekit-danger-color);
+}
+:root #notes-column .note.selected .note-flags .flag.info,
+:root .notes .note.selected .note-flags .flag.info {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected .note-flags .flag.success,
+:root .notes .note.selected .note-flags .flag.success {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected .note-flags .flag.warning,
+:root .notes .note.selected .note-flags .flag.warning {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected .note-flags .flag.neutral,
+:root .notes .note.selected .note-flags .flag.neutral {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected .note-flags .flag.danger,
+:root .notes .note.selected .note-flags .flag.danger {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected {
+	background: none !important;
+	background-color: var(--highlight-color) !important;
+}
+:root #notes-column .note .date.faded,
+:root #notes-column .note .tags-string > .faded,
+:root #notes-column .note .note-flag,
+:root .editor-tags input {
+  opacity: 1 !important;
+  color: var(--neutral-color) !important;
+}
+:root .cm-s-default .cm-variable-3,
+:root .cm-s-default .cm-type {
+  color: var(--success-color) !important;
+}
+:root #notes-column .note progress, :root .notes .note progress {
+  background-color: var(--background-2) !important;
+  color: var(--foreground-2) !important;
+}
+:root #notes-column .note progress::-webkit-progress-bar, :root .notes .note progress::-webkit-progress-bar {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note progress::-webkit-progress-value, :root .notes .note progress::-webkit-progress-value {
+  background-color: var(--foreground-2) !important;
+}
+:root #notes-column .note.selected progress, :root .notes .note.selected progress {
+  background-color: var(--background-2) !important;
+  color: var(--foreground-2) !important;
+}
+:root #notes-column .note.selected progress::-webkit-progress-bar, :root .notes .note.selected progress::-webkit-progress-bar {
+  background-color: var(--background-2) !important;
+}
+:root #notes-column .note.selected progress::-webkit-progress-value, :root .notes .note.selected progress::-webkit-progress-value {
+  background-color: var(--foreground-2) !important;
+}
+:root ::selection {
+  background: var(--success-color) !important;
+  color: var(--foreground-1) !important;
+}
+:root .cm-s-default .cm-variable-3 {
+  color: #7e9a8f;
+}
+:root #editor-menu-bar > div > div.sk-app-bar-item.selected > div.sk-menu-panel.dropdown-menu.ng-scope > div:nth-child(1) > menu-row:nth-child(7) > div > div > div > div > div {
+  color: var(--danger-color);
+}
+:root .tags .tag > .tag-info > .tag-icon {
+	opacity: 0.4;
+}
+:root #tags-content > div.scrollable > div > div.tag.ng-scope.selected > div.tag-info > div.tag-icon {
+	opacity: 0.5;
+}
+:root div.tag-info.level-1 > div.sk-circle.small.info {
+	opacity: 0.6;
+}
+:root div.tag-info.level-1 > div.sk-circle.small.success {
+	opacity: 0.6;
+}
+:root div.tag-info.level-2 > div.sk-circle.small.success {
+	opacity: 0.6;
+}
+:root div.tag-info.level-3 > div.sk-circle.small.danger {
+	opacity: 0.6;
+}
+:root div.tag-info.level-4 > div.sk-circle.small.warning {
+	opacity: 0.6;
+}
+:root div.tag-info.level-5 > div.sk-circle.small.neutral {
+	opacity: 0.6;
+}
+:root .sn-component .sk-circle {
+	border: none;
+}
+:root .tag-tree .self.selected:before {
+	background: none;
+	background-color: var(--sn-stylekit-secondary-contrast-background-color);
+	opacity: 1;
+}
+:root #tags-column .tag.selected {
+	background-color: #124420;
+}
+:root .tag-tree .self .tag-info .action-menu {
+	margin-left: auto;
+	margin-right: 0;
+}
+:root .tags .tag > .menu:hover {
+	opacity: 0.5;
+}
