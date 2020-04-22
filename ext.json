@@ -5,10 +5,10 @@
     "area": "themes",
     "description": "Evernote inspired dark theme for Standard Notes",
     "version": "v1.2",
-    "url": "https://danielilin.de/github/sn-theme-evernote-dark/dist/dist.css",
+    "url": "https://raw.githubusercontent.com/ilindaniel/sn-theme-evernote-dark/master/dist/dist.css",
     "download_url": "https://github.com/ilindaniel/sn-theme-evernote-dark/archive/master.zip",
     "marketing_url": "https://github.com/ilindaniel/sn-theme-evernote-dark",
-    "latest_url": "https://danielilin.de/github/sn-theme-evernote-dark/ext.json",
+    "latest_url": "https://listed.to/p/u0KtH2x98F",
     "thumbnail_url": "https://raw.githubusercontent.com/ilindaniel/sn-theme-evernote-dark/master/preview.png",
     "dock_icon": {
       "type": "circle",
