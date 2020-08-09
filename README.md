@@ -1,7 +1,7 @@
 # :elephant: Evernote inspired dark theme for Standard Notes
 ![Evernote inspired dark theme for Standard Notes](preview.png)
 
-This theme is inspired by colors from Evernote and heavily based on the [gruvbox theme from Christian Hans](https://github.com/christianhans/sn-gruvbox-dark-theme).<br>
+This theme is inspired by colors of Evernote and heavily based on the [gruvbox theme from Christian Hans](https://github.com/christianhans/sn-gruvbox-dark-theme).<br>
 Standard Notes is not related to Evernote.
 
 ## How to install
