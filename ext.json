@@ -1,8 +1,4 @@
----
-metatype: json
----
-
-  {
+{
     "identifier": "io.github.ilindaniel.sn-theme-evernote-dark",
     "name": "Evernote-style Dark Theme",
     "content_type": "SN|Theme",
