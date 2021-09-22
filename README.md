@@ -9,5 +9,5 @@ Standard Notes is not related to Evernote.
 Open "Extensions" in Standard Notes and click "Import Extension". Paste the following URL and press enter:
 
 ```
-https://listed.to/p/u0KtH2x98F
+https://raw.githubusercontent.com/xthursdayx/sn-theme-evernote-dark/master/ext.json
 ```
