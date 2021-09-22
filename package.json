@@ -1,12 +1,20 @@
 {
   "name": "sn-theme-evernote-dark",
-  "version": "1.2",
+  "version": "1.2.1",
   "main": "dist/dist.css",
+  "devDependencies": {
+    "debug": ">=2.6.9",
+    "grunt": "^1.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-newer": "^1.2.0",
+    "lodash": ">=4.17.19"
+  },
   "sn": {
     "main": "dist/dist.css"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ilindaniel/sn-theme-evernote-dark.git"
+    "url": "git://github.com/ilindaniel/sn-theme-evernote-dark.git""
   }
 }
